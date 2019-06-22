@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+}
+
+.wrapper form {
+    width: 60%;
+    /* border: 1px solid #333; */
+    margin: 150px auto;
+    padding: 50px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.wrapper h2 {
+    /* text-align: center; */
+    /* font-size: 30px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.image-float {
+    position: relative;
+    width: 100%;
+}
+
+.image-float img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 225px;
+    z-index: 9;
+}
+
+.wrapper .form-group:last-child {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+}
